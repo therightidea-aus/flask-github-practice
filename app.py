@@ -4,7 +4,7 @@ app = Flask(__name__)
 
 @app.get("/")
 def home():
-    return "Hello GitHub + Flask 👋, we hope you have a good night"
+    return "Hello GitHub + Flask 👋, we hope you have a good night.  Whats for dinner?"
 
 if __name__ == "__main__":
     app.run(debug=True)
